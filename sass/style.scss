@@ -113,8 +113,10 @@ body {
 }
 
 .portfolio-title {
+    font-size: 40px;
+    margin-top: 40px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 .cover {
     justify-content: center;
@@ -133,9 +135,8 @@ body {
     }
 }
 .box-title {
-    font-size: 25px;
-    margin-top: 10px;
-    margin-bottom: 0;
+    font-size: 40px;
+    margin-top: 40px;
 }
 .box-txt {
     font-style: italic;
@@ -235,4 +236,4 @@ body {
         flex-direction: column;
         line-height: 1;
     }
-}  
+} 

@@ -60,6 +60,15 @@ body {
       font-family: 'Hind';
   }
 }
+
+.section-title {
+  font-family: 'Hind';
+  font-size: 36px;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 /* button */
 .button {
   color: white;
@@ -79,17 +88,17 @@ body {
   text-align: center;
 }
 .title-sub {
-      text-align: center;
-      margin-bottom: 50px;
-      font-style: italic;
-  }
+  text-align: center;
+  margin-bottom: 50px;
+  font-style: italic;
+}
 .boxes-services {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;  /* dodano */
   justify-content: space-between;
 }
 .box {
-  flex: 0 0 33.333%;
+  flex: 0 0 calc(50% - 20px);  /* zmieniono */
   position: relative;
   padding: 0 15px;
   text-align: center;
